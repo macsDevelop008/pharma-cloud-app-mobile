@@ -17,6 +17,10 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   flutter_dotenv: ^5.2.1              # Variables de entorno
+  riverpod: ^2.6.1                    # State management - Específico
+  flutter_bloc: ^9.1.0                # State management - General
+  flutter_svg: ^2.0.17                # Uso de SVG
+  go_router: ^14.8.1                  # Manejo de rutas
 
 dev_dependencies:
   flutter_test:
@@ -33,6 +37,8 @@ flutter:
 
   assets:
     - .env
+    - assets/images/
+    - assets/fonts/
 
   # fonts:
   #   - family: Schyler
