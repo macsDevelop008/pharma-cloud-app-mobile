@@ -1,7 +1,6 @@
 name: pharma_cloud_app_mobile_flutter
 description: "A new Flutter project."
-# The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`. This is preferred for private packages.
+
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 
@@ -38,16 +37,51 @@ flutter:
   assets:
     - .env
     - assets/images/
+    - assets/images/svg/
     - assets/fonts/
-
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+    - assets/fonts/icon/
+    - assets/fonts/text/
+  
+  fonts:
+      # TEXT FONTS
+      - family: Rubik
+        fonts:
+        - asset: assets/fonts/text/Rubik/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/text/Rubik/Rubik-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/text/Rubik/Rubik-Light.ttf
+          weight: 300
+        - asset: assets/fonts/text/Rubik/Rubik-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/text/Rubik/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/text/Rubik/Rubik-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/text/Rubik/Rubik-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/text/Rubik/Rubik-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/text/Rubik/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/text/Rubik/Rubik-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/text/Rubik/Rubik-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/text/Rubik/Rubik-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/text/Rubik/Rubik-Black.ttf
+          weight: 900
+        - asset: assets/fonts/text/Rubik/Rubik-BlackItalic.ttf
+          weight: 900
+          style: italic
+      # ICON FONTS
+      - family: CustomIcons
+        fonts:
+        - asset: assets/fonts/icon/custom-icons.ttf

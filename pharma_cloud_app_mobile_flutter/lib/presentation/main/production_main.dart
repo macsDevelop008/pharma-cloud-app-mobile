@@ -6,6 +6,10 @@ class ProductionMain extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(title: 'Material App', routerConfig: appRouter);
+    return MaterialApp.router(
+      title: 'Material App',
+      theme: appTheme,
+      routerConfig: appRouter,
+    );
   }
 }
